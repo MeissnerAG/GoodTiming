@@ -49,8 +49,8 @@
             // 
             // BtnGo
             // 
-            this.BtnGo.Location = new System.Drawing.Point(316, 15);
-            this.BtnGo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.BtnGo.Location = new System.Drawing.Point(137, 15);
+            this.BtnGo.Margin = new System.Windows.Forms.Padding(6);
             this.BtnGo.Name = "BtnGo";
             this.BtnGo.Size = new System.Drawing.Size(88, 44);
             this.BtnGo.TabIndex = 1;
@@ -60,10 +60,10 @@
             // 
             // txtSeconds
             // 
-            this.txtSeconds.Location = new System.Drawing.Point(142, 19);
-            this.txtSeconds.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtSeconds.Location = new System.Drawing.Point(31, 89);
+            this.txtSeconds.Margin = new System.Windows.Forms.Padding(6);
             this.txtSeconds.Name = "txtSeconds";
-            this.txtSeconds.Size = new System.Drawing.Size(158, 31);
+            this.txtSeconds.Size = new System.Drawing.Size(194, 31);
             this.txtSeconds.TabIndex = 2;
             this.txtSeconds.Text = "180";
             // 
@@ -72,10 +72,10 @@
             this.lblTimer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTimer.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblTimer.Location = new System.Drawing.Point(32, 65);
+            this.lblTimer.Location = new System.Drawing.Point(237, 28);
             this.lblTimer.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblTimer.Name = "lblTimer";
-            this.lblTimer.Size = new System.Drawing.Size(372, 92);
+            this.lblTimer.Size = new System.Drawing.Size(176, 92);
             this.lblTimer.TabIndex = 3;
             this.lblTimer.Text = "0";
             this.lblTimer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -96,7 +96,7 @@
             this.Controls.Add(this.lblSeconds);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";
