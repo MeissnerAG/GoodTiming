@@ -24,7 +24,7 @@ namespace GoodTiming
         {
             if (timeLeft > 1)
             {
-                timeLeft = timeLeft - 1;
+                timeLeft--;
                 lblTimer.Text = timeLeft.ToString();
             }
             else
