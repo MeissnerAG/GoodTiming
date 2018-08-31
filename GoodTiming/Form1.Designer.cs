@@ -40,17 +40,19 @@
             // lblSeconds
             // 
             this.lblSeconds.AutoSize = true;
-            this.lblSeconds.Location = new System.Drawing.Point(13, 13);
+            this.lblSeconds.Location = new System.Drawing.Point(26, 25);
+            this.lblSeconds.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblSeconds.Name = "lblSeconds";
-            this.lblSeconds.Size = new System.Drawing.Size(52, 13);
+            this.lblSeconds.Size = new System.Drawing.Size(102, 25);
             this.lblSeconds.TabIndex = 0;
             this.lblSeconds.Text = "Seconds:";
             // 
             // BtnGo
             // 
-            this.BtnGo.Location = new System.Drawing.Point(158, 8);
+            this.BtnGo.Location = new System.Drawing.Point(316, 15);
+            this.BtnGo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.BtnGo.Name = "BtnGo";
-            this.BtnGo.Size = new System.Drawing.Size(44, 23);
+            this.BtnGo.Size = new System.Drawing.Size(88, 44);
             this.BtnGo.TabIndex = 1;
             this.BtnGo.Text = "Go!";
             this.BtnGo.UseVisualStyleBackColor = true;
@@ -58,9 +60,10 @@
             // 
             // txtSeconds
             // 
-            this.txtSeconds.Location = new System.Drawing.Point(71, 10);
+            this.txtSeconds.Location = new System.Drawing.Point(142, 19);
+            this.txtSeconds.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtSeconds.Name = "txtSeconds";
-            this.txtSeconds.Size = new System.Drawing.Size(81, 20);
+            this.txtSeconds.Size = new System.Drawing.Size(158, 31);
             this.txtSeconds.TabIndex = 2;
             this.txtSeconds.Text = "180";
             // 
@@ -68,9 +71,11 @@
             // 
             this.lblTimer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTimer.Location = new System.Drawing.Point(16, 34);
+            this.lblTimer.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblTimer.Location = new System.Drawing.Point(32, 65);
+            this.lblTimer.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblTimer.Name = "lblTimer";
-            this.lblTimer.Size = new System.Drawing.Size(186, 48);
+            this.lblTimer.Size = new System.Drawing.Size(372, 92);
             this.lblTimer.TabIndex = 3;
             this.lblTimer.Text = "0";
             this.lblTimer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -82,15 +87,16 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(214, 91);
+            this.ClientSize = new System.Drawing.Size(428, 175);
             this.Controls.Add(this.lblTimer);
             this.Controls.Add(this.txtSeconds);
             this.Controls.Add(this.BtnGo);
             this.Controls.Add(this.lblSeconds);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";
